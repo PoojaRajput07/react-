@@ -11,10 +11,11 @@
 
 
 
-// import { ToDo } from"./projects/toDo/ToDo";
-import { Counter } from "./component/hook/useState";
+ import { ToDo } from"./projects/toDo/ToDo";
+// import { Counter } from "./component/hook/useState";
 export const App=()=>{
-  return < Counter/>
+  return  <ToDo />
+    // < Counter/>
   //   {/* <h1 className="heading">top 5 series </h1> */}
   // {/* <EventHandling/> */}
   // {/* <Netflix/> */}
@@ -22,5 +23,5 @@ export const App=()=>{
   // {/* <State/> */}
   // {/* <DerivedState/> */}
   // {/* <ToggleSwitch /> */}
-  // <ToDo /> 
+   
 };
