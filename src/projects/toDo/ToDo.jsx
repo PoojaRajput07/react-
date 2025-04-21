@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react"
-import { FaCheck } from "react-icons/fa";
-import { MdDeleteForever } from "react-icons/md";
+// import { FaCheck } from "react-icons/fa";
+// import { MdDeleteForever } from "react-icons/md";
 import "./todo.css"
 import { TodoForm } from "./todoForm";
 import { TodoList } from "./TodoList";
