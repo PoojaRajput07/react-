@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+
+}
+.todo-container{
+    background-color:rgb(6, 6, 24);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height:100vh;
+
+}
+h1{
+    font-size:60px;
+    margin:0px;
+    color:white;
+}
+
+form{
+    
+    display:flex;
+
+}
+.todo-input{
+    border-radius:18px;
+    height:50px;
+    width:300px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border:none;
+
+
+}
+.todo-btn{
+    height:52px;
+    width:80px;
+    border-radius:18px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border:none;
+    background-color:rgb(32, 162, 209);
+    font-size: 15px;
+    color:white;
+}
+header{
+    height:100px;
+    margin:30px;
+}
+
+.todo-item{
+    background-color:white;
+    height:20px;
+    width:300px;
+    margin:20px;
+    border-radius:40px;
+    display:grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(23, 23, 23)
+}
+.myUnordList ul{
+    list-style:none;
+    padding:0px;
+} 
+.check-btn{
+    border:none;
+    background-color: rgb(20, 238, 82);
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    color:white;
+}
+.delete-btn{
+    border:none;
+    background-color: rgb(231, 17, 5);
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    color:white;
+}
+.clear-btn{
+    background-color:red;
+    color:white;
+    border:none;
+    height:40px;
+    width:70px;
+    border-radius:4px;
+    
+}
+h2{
+    color:white;
+   margin:0px;
+}
+.checkList{
+    text-decoration:line-through;
+}
+.notchecklist{
+    text-decoration:none;
+}
+@media(max-width:375px){
+     .todo-container{
+        width:100vw;
+        height:100vh;
+    } 
+    .todo-input{
+        width:210px;
+        height:40px;
+    }
+    .todo-btn{
+        width:90px;
+        height:42px;
+    }
+    .todo-item{
+        height:20px;
+        width:250px;
+    }
+}

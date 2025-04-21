@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    width:100vw;
+    
+}
+.outerdiv{
+    background-color:grey;
+    height:150px;
+    width:350px;
+    border-radius:75px;
+    display:flex;
+    align-items:center;
+    
+}
+.innerdiv{
+    border-radius:50%;
+    /* background-color:rgb(242, 87, 87); */
+    height:120px;
+    width:120px;
+    margin:12px;
+    border:2px solid rgb(192, 187, 187);
+    transition: transform 0.4s ease-in-out, background-color 0.3s ease; 
+   
+
+}
+.on{
+    background-color:#4caf50;
+    transform: translateX(200px);
+}
+.off{
+    background-color: #f44336;
+    transform: translateX(0);
+}
+.state{
+    position:relative;
+    top:30%;
+    left:20%;
+    font-size:30px;
+    
+}
